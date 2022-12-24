@@ -49,9 +49,9 @@ app.post("/create_preference", (req, res) => {
 			currecy_id: "COP"
 		}],
 		back_urls: {
-			success: "http://localhost:5000/success",
-			failure: "http://localhost:5000/failure",
-			pending: "http://localhost:5000/pending"
+			success: "https://chechout-certification.onrender.com/success",
+			failure: "https://chechout-certification.onrender.com/failure",
+			pending: "https://chechout-certification.onrender.com/pending"
 		},
 		auto_return: "approved",
 		payment_methods: {
